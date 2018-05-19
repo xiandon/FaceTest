@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".recycler_view.RecyclerViewActivity">
+
+    <Button
+        android:id="@+id/btn_recycler_view_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="基础RecyclerView"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_recycler_view_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="横向布局，瀑布布局RecyclerView"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

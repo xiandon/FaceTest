@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.news.NewsContentActivity">
+
+    <fragment
+        android:id="@+id/f_news_fragment_content"
+        android:layout_width="match_parent"
+        android:name="com.xiandon.facetest.fragment.news.NewsContentFragment"
+        android:layout_height="match_parent" />
+
+</android.support.constraint.ConstraintLayout>

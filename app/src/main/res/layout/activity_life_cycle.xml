@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".life_cycle.LifeCycleActivity">
+
+    <Button
+        android:id="@+id/btn_life_cycle_into_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="进入第二个周期活动" />
+
+    <Button
+        android:id="@+id/btn_life_cycle_into_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="Dialog" />
+
+    <TextView
+        android:id="@+id/tv_life_cycle_context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="明天是文化节，需要去看看" />
+
+</LinearLayout>
